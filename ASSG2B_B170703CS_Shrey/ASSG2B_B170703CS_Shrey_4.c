@@ -33,13 +33,8 @@ void add_node(int value)
       currentNode->next=newNode;
       newNode->data=value;
       newNode->next=NULL;
-
-
    }
-
-
 }
-
 
 void count_occurences()
 {
@@ -55,7 +50,6 @@ void count_occurences()
         currentNode=currentNode->next;
     }
 
-
     for(int i=0;i<100000;i++)
     {
       if(f[i])
@@ -65,7 +59,6 @@ void count_occurences()
       }
 
     }
-
 
 }
 
@@ -87,8 +80,6 @@ int main()
    }
 
    count_occurences();
-  
-
   return 0;
 }
 
