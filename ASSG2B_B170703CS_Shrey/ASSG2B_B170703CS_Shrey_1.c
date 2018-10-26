@@ -8,7 +8,6 @@ struct node
 
 };
 
-
 struct node *head=NULL;
 
 void add_node(int value)
