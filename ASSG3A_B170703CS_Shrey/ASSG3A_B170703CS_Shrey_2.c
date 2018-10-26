@@ -40,9 +40,6 @@ while (fscanf(inputFile,"%d",&k)!=EOF)
       printf("Element not found\n");
 
       printf("\n");
-
 }
-
-
 return 0;
 }
