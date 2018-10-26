@@ -8,7 +8,6 @@ struct node
 
 };
 
-
 struct node *head1=NULL;
 struct node *head2=NULL;
 
