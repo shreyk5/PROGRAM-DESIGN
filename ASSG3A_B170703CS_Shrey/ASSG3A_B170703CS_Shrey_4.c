@@ -9,8 +9,6 @@ void swap(int *x, int *y)
     *y = temp;
 }
 
-
-
 int main()
 {
     FILE *inputFile;
