@@ -8,7 +8,6 @@ struct node
 
 };
 
-
 struct node *head=NULL;
 
 void add_node(int value)
@@ -33,11 +32,7 @@ void add_node(int value)
       currentNode->next=newNode;
       newNode->data=value;
       newNode->next=NULL;
-
-
    }
-
-
 }
 
 
@@ -52,8 +47,6 @@ void reverse()
    {
       currentNode=currentNode->next;
    }
-
-
 
    head=currentNode;
    currentNode=temp;
@@ -71,8 +64,6 @@ void reverse()
    temp->next=NULL;
 
     printf("Reversed list is ");
-
-
 }
 
 
@@ -86,7 +77,6 @@ void print()
        printf("%d ",currentNode->data);
        currentNode=currentNode->next;
    }
-
      printf("\n");
 }
 
@@ -108,7 +98,5 @@ int main()
   
   reverse();
   print();
-
   return 0;
 }
-
