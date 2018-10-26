@@ -30,8 +30,6 @@ while (fscanf(inputFile,"%d",&n)!=EOF)
         }
 
      }
-
-
         printf("Sorted elements of the array are ");
         for(int i=0;i<n;i++)
            printf("%d ",a[i]);
@@ -39,5 +37,4 @@ while (fscanf(inputFile,"%d",&n)!=EOF)
 }
 
 return 0;
-
 }
