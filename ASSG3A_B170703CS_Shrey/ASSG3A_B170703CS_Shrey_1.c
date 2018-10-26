@@ -50,17 +50,13 @@ while (fscanf(inputFile,"%d",&n)!=EOF)
          s=mid+1;
 
        }
-
        else
        e=mid-1;
-
-
    }
    if(flag==0)
     printf("Element not found\n");
 
 }
-
 
   return 0;
 }
