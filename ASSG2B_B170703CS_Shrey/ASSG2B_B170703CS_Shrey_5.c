@@ -33,11 +33,7 @@ void add_node(int value)
       currentNode->next=newNode;
       newNode->data=value;
       newNode->next=NULL;
-
-
    }
-
-
 }
 
 void swap()
@@ -56,20 +52,12 @@ void swap()
 
         if(currentNode->next!=NULL)
         currentNode=previousNode->next;
-
-
     }
-
-
 
 }
 
-
-
-
 void print()
 {
-
    struct node *currentNode=head;
 
    while(currentNode!=NULL)
@@ -77,13 +65,11 @@ void print()
        printf("%d ",currentNode->data);
        currentNode=currentNode->next;
    }
-
      printf("\n");
 }
 
 int main()
 {
-
    int n;
    printf("Enter the number of elements to be added in the list\n");
    scanf("%d",&n);
@@ -103,5 +89,3 @@ int main()
 
   return 0;
 }
-
-
