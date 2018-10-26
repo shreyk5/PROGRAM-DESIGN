@@ -8,7 +8,6 @@ struct node
 
 };
 
-
 struct node *head=NULL;
 
 void add_node(int value)
@@ -33,13 +32,9 @@ void add_node(int value)
       currentNode->next=newNode;
       newNode->data=value;
       newNode->next=NULL;
-
-
    }
 
-
 }
-
 
 void find(int position)
 {
@@ -76,6 +71,3 @@ int main()
   
   return 0;
 }
-
-
-
